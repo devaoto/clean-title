@@ -1,4 +1,4 @@
-const removeSpecialChars = (str: string) => {
+export const removeSpecialChars = (str: string) => {
   return str.replace(/[^\p{L}\p{N}\s]/gu, "");
 };
 
