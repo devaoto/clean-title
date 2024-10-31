@@ -1,0 +1,30 @@
+{
+	"name": "@mohtasimalam/clean-title",
+	"version": "0.1.0",
+	"private": "false",
+	"description": "A library to clean all types of weird thing from a text",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"module": "dist/index.mjs",
+	"files": ["dist/**/*", "README.md", "LICENSE", "package.json"],
+	"scripts": {
+		"build": "tsup",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/devaoto/clean-title.git"
+	},
+	"keywords": ["Clean", "Sanitize"],
+	"author": "Mohtasim Alam Sohom",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/devaoto/clean-title/issues"
+	},
+	"homepage": "https://github.com/devaoto/clean-title#readme",
+	"devDependencies": {
+		"tsup": "^8.3.5",
+		"tsx": "^4.19.2",
+		"typescript": "^5.6.3"
+	}
+}
