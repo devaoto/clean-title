@@ -35,7 +35,7 @@ export const cleanTitle = (str: string) => {
 
   output = output.toLowerCase();
   output = output.replace(
-    /\b(official|music|video|lyrics|audio|animated|amv|omv|m\/v|a?m\s*v)\b|\bofficial\s*(audio|music|lyrics\s*video|lyrics)?\b/gi,
+    /\b(copyright(-free)?|non-copyright|no copyright(?: song| music)?|copyright free|official|music|video|lyrics|audio|animated|amv|omv|m\/v|a?m\s*v)\b|\bofficial\s*(audio|music|lyrics\s*video|lyrics)?\b/gi,
     ""
   );
   output = output.replace(/- Topic$/gi, "");
